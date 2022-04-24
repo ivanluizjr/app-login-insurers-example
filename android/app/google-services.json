@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "324711045817",
+    "project_id": "authentication-tokio-marine",
+    "storage_bucket": "authentication-tokio-marine.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324711045817:android:efea5a6621bc39760a9968",
+        "android_client_info": {
+          "package_name": "com.example.authentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324711045817-bp9acjckus4ebck2o49ahiplppqso188.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRYigZ3wnTCSBZLaByMZBUP70c_yMAVRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324711045817-bp9acjckus4ebck2o49ahiplppqso188.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
