@@ -4,35 +4,45 @@ Este projeto consiste em um exemplo de tela de login e uma tela home para um apl
 
 ## :heavy_check_mark: Telas de projeto web que transformamos em aplicativo
 
+![tela_web_01](https://user-images.githubusercontent.com/41458938/165120241-f67ecc68-be76-4c38-b229-a6038dcfc925.png)
 
+![tela_web_02](https://user-images.githubusercontent.com/41458938/165120278-c1120d3a-de1f-4a93-a219-f930562df6b5.png)
   
 ## :computer: Tecnologias, APIs, Packages utilizados:
   
   * Flutter / Dart
   * VSCode IDE
   * Bloc Package
-  * Mocktail Package
-  * [The Movie DB API](https://developers.themoviedb.org/3/getting-started/introduction)
+  * Firebase
+
+## :file_folder: Organização de pastas e arquivos do projeto:
+
+![pastas_projeto](https://user-images.githubusercontent.com/41458938/165124915-219d6eeb-242c-40b0-b788-552927b3694e.png)
+
   
 ## :keyboard: Estágios de desenvolvimento do projeto:
 
-  - Seguindo os conceitos de clean architecture, fiz a organização das pastas do nosso projeto 
-![image](https://user-images.githubusercontent.com/41458938/161303562-c58a00e5-dbc2-4424-b8dd-abdd740ec3d8.png)
+  - Seguindo os conceitos de clean architecture, fiz a organização das pastas do nosso projeto.
 
-  - Logo após modelei a regra de negócio do projeto
+  - Logo após comecei pela camada interna, modelando a regra de negócio do projeto.
   
-  - Continuando, criei a classe da chamada do serviço da API Rest
+  - Fiz a configuração e integração com autenticação via Firebase.
   
-  - Para garantir que o serviço irá se comunicar com nossa aplicação, criei o teste de unidade, utilizando Mock
+  - Criei os events, os states e por fim o bloc de autenticação para controlarmos a nossa gerencia de estado com a autenticação com o Firebase.
+
+  - Criei um bloc para gerenciar o estado de lembrar a senha sempre, quando clicado ele muda o estado para selecionado.
   
-  - Na continuação criei a gerencia de estado, utilizando Flutter Bloc, e usei uma extensão do próprio Bloc, o Cubit, assim conseguimos definir o estado de inicio da nossa aplicação, o momento em que esse ação esta sendo executada, se teremos o sucesso ou o erro.
+  - Já vindo para o nosso layout, ou seja, as telas que nossos usuários irão visualizar, criei primeiramente a tela de login, olhando e seguindo o exemplo da tela de login do projeto web, e adaptando para um projeto mobile.
   
-  - Meu último passo que irei concluir, será a criação do layout ou nossa tela que será visualizada pelo usuário, fiz a integração de API e de gerencia de estado, busquei a quantidade de likes, a popularidade e a lista de filmes diretamente da API conforme proposto, ressaltando que poderiamos escolher um filme, então esse é fixo mais as informações de likes e popularidade é concernente a este filme conforme esta registrado na API, se alterado o filme o estado destes campos se alteram também juntamente com o nome do filme, também implementei o ícone de curtida do filme onde quando clicamos ele fica preenchido e clicamos novamente ele fica vazio, como se realmente estivessemos dando uma curtida ou tirando a curtida conforme solicitado no desafio.
+  - Depois fiz a segunda tela que seria a de home, também seguindo o exemplo do projeto web, mais fazendo as adaptações para mobile.
 
   # :iphone: Layout do App
-
-   ![Desafio](https://user-images.githubusercontent.com/41458938/161398042-c6afface-4ae9-4617-a940-920bf6231874.gif)
   
+  ![Authentication_Tokio_01](https://user-images.githubusercontent.com/41458938/165128634-30332d30-2d1f-4146-bac2-4785c666cb3c.gif)
+  ![Authentication_Tokio_02](https://user-images.githubusercontent.com/41458938/165128855-8d095d88-b00c-4f90-b56d-f4beee01bd2a.gif)
+  ![Authentication_Tokio_02](https://user-images.githubusercontent.com/41458938/165128855-8d095d88-b00c-4f90-b56d-f4beee01bd2a.gif)
+ 
+   
   #
   
   ![FLutter-1](https://user-images.githubusercontent.com/41458938/161364495-d0dbe155-75f3-4a03-a58f-307d9212b8aa.png)
