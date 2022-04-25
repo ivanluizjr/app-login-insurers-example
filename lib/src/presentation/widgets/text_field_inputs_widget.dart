@@ -68,6 +68,7 @@ class TextFieldInputsWidget extends StatelessWidget {
           height: 12.0,
         ),
         TextFormField(
+          obscureText: true,
           controller: passwordController,
           textAlign: TextAlign.center,
           keyboardType: TextInputType.text,

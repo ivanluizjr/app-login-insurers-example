@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-class CheckCircleCubit extends Cubit<bool> {
+class CheckCircleCubit extends Bloc<bool, bool> {
   CheckCircleCubit() : super(false);
 
   void checkCircle() {

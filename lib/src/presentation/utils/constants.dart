@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 const kVerde = Color(0xFF35947A);
 const kVerdeAmarelo = Color(0xFFA7B473);
 const kColorLoginCard = Color(0xFF2B3038);
+const kColorBackgroundScaffold = Color(0xFF20242A);
+const kColorIconsDrawer = Color(0xFF14C0A7);
 
 //!=======================================
 
@@ -71,11 +73,138 @@ const kTextoRedesSociais = Text(
   ),
 );
 
+const kTextoDrawerHomeCotar = Text(
+  'Home/Cotar Seguro',
+  style: TextStyle(
+    color: Colors.grey,
+    fontSize: 15,
+    //fontWeight: FontWeight.bold,
+  ),
+);
+
+const kTextoDrawerMinhasContatacoes = Text(
+  'Minhas Contratações',
+  style: TextStyle(
+    color: Colors.grey,
+    fontSize: 15,
+    //fontWeight: FontWeight.bold,
+  ),
+);
+
+const kTextoDrawerMeusSinistros = Text(
+  'Meus Sinistros',
+  style: TextStyle(
+    color: Colors.grey,
+    fontSize: 15,
+    //fontWeight: FontWeight.bold,
+  ),
+);
+
+const kTextoDrawerMinhaFamilia = Text(
+  'Minha Família',
+  style: TextStyle(
+    color: Colors.grey,
+    fontSize: 15,
+    //fontWeight: FontWeight.bold,
+  ),
+);
+
+const kTextoDrawerMeusBens = Text(
+  'Meus Bens',
+  style: TextStyle(
+    color: Colors.grey,
+    fontSize: 15,
+    //fontWeight: FontWeight.bold,
+  ),
+);
+
+const kTextoDrawerPagamentos = Text(
+  'Pagamentos',
+  style: TextStyle(
+    color: Colors.grey,
+    fontSize: 15,
+    //fontWeight: FontWeight.bold,
+  ),
+);
+
+const kTextoDrawerCorretores = Text(
+  'Corretores',
+  style: TextStyle(
+    color: Colors.grey,
+    fontSize: 15,
+    //fontWeight: FontWeight.bold,
+  ),
+);
+
+const kTextoDrawerValidarBoleto = Text(
+  'Validar Boleto',
+  style: TextStyle(
+    color: Colors.grey,
+    fontSize: 15,
+    //fontWeight: FontWeight.bold,
+  ),
+);
+
+const kTextoDrawerTelefones = Text(
+  'Telefones Importantes',
+  style: TextStyle(
+    color: Colors.grey,
+    fontSize: 15,
+    //fontWeight: FontWeight.bold,
+  ),
+);
+
+const kTextoDrawerIndique = Text(
+  'Indique e Ganhe',
+  style: TextStyle(
+    color: Colors.grey,
+    fontSize: 15,
+    //fontWeight: FontWeight.bold,
+  ),
+);
+
+const kTextoDrawerConfig = Text(
+  'Configurações',
+  style: TextStyle(
+    color: Colors.grey,
+    fontSize: 15,
+    //fontWeight: FontWeight.bold,
+  ),
+);
+
+const kTextoDrawerExit = Text(
+  'Fechar Menu',
+  style: TextStyle(
+    color: Colors.grey,
+    fontSize: 15,
+    //fontWeight: FontWeight.bold,
+  ),
+);
+
+const kTextoDrawerLogout = Text(
+  'Sair do Sistema',
+  style: TextStyle(
+    color: Colors.grey,
+    fontSize: 15,
+    //fontWeight: FontWeight.bold,
+  ),
+);
+
+const kTextoDrawerImageOla = Text(
+  'Olá',
+  style: TextStyle(color: Colors.white, fontSize: 15),
+);
+
+const kTextoDrawerImageNome = Text(
+  'JOHN DOE',
+  style: TextStyle(
+    color: Colors.white,
+    fontSize: 25,
+    fontWeight: FontWeight.bold,
+  ),
+);
+
+const kTextoCardContratos =
+    Text('R Arthur Prado 123 - Bela Vista - São Paulo -SP');
 //!=======================================
 
-//* Url Server
-
-const kUrlBase = 'http://localhost:3031';
-const kEndPointUsers = '/users';
-
-//!=======================================
