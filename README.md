@@ -35,11 +35,13 @@ Este projeto consiste em um exemplo de tela de login e uma tela home para um apl
   - Já vindo para o nosso layout, ou seja, as telas que nossos usuários irão visualizar, criei primeiramente a tela de login, olhando e seguindo o exemplo da tela de login do projeto web, e adaptando para um projeto mobile.
   
   - Depois fiz a segunda tela que seria a de home, também seguindo o exemplo do projeto web, mais fazendo as adaptações para mobile.
+  
+  - Observação - Fiz a implementação de tela de cadastro de usuário, ficando para ser finalizada posteriormente. 
 
   # :iphone: Layout do App
   
-  ![Authentication_Tokio_01](https://user-images.githubusercontent.com/41458938/165128634-30332d30-2d1f-4146-bac2-4785c666cb3c.gif)
-  ![Authentication_Tokio_02](https://user-images.githubusercontent.com/41458938/165128855-8d095d88-b00c-4f90-b56d-f4beee01bd2a.gif)
+  [![Authentication_Tokio_01](https://user-images.githubusercontent.com/41458938/165128634-30332d30-2d1f-4146-bac2-4785c666cb3c.gif)]
+  [![Authentication_Tokio_02](https://user-images.githubusercontent.com/41458938/165128855-8d095d88-b00c-4f90-b56d-f4beee01bd2a.gif)]
   ![Authentication_Tokio_03](https://user-images.githubusercontent.com/41458938/165132139-e82ccb6e-641d-4a1f-8ef1-ac50f7fb3e8d.gif)
  
    
