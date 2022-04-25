@@ -40,7 +40,16 @@ Este projeto consiste em um exemplo de tela de login e uma tela home para um apl
   
   - Observação - Fiz a implementação de tela de cadastro de usuário, ficando para ser finalizada posteriormente. 
 
-  # :iphone: Layout do App
+## :closed_lock_with_key: Instruções para testes da aplicação:
+
+Como nossa aplicação está integrada com um projeto do Firebase, e com autenticação ativa por e-mail e senha, caso queira fazer os testes desta aplicação o login e senha são:
+
+* Login: johndoe@gmail.com
+* Senha: 123456
+
+##
+
+ # :iphone: Layout do App
   
   ![Authentication_Tokio_01](https://user-images.githubusercontent.com/41458938/165128634-30332d30-2d1f-4146-bac2-4785c666cb3c.gif)
   ![Authentication_Tokio_02](https://user-images.githubusercontent.com/41458938/165128855-8d095d88-b00c-4f90-b56d-f4beee01bd2a.gif)
