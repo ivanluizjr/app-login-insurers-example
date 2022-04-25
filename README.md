@@ -36,7 +36,7 @@ Este projeto consiste em um exemplo de tela de login e uma tela home para um apl
   
   - Depois fiz a segunda tela que seria a de home, também seguindo o exemplo do projeto web, mais fazendo as adaptações para mobile.
   
-  - Na tela de home, como no projeto web, crei o menu drawer, com a funcionalidade de fechar o menu ou sair do sistema e retornar a tela de login.
+  - Na tela de home, como no projeto web, criei o menu drawer, com a funcionalidade de fechar o menu ou sair do sistema e retornar a tela de login.
   
   - Observação - Fiz a implementação de tela de cadastro de usuário, ficando para ser finalizada posteriormente. 
 
